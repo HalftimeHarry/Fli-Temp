@@ -57,6 +57,16 @@
     // Set the modalTypeToShow to trigger modal display
     modalTypeToShow = modalType;
   }
+
+  // Define openLoginForm function
+  function openLoginForm() {
+    openModal('login'); // Call openModal with the 'login' parameter
+  }
+
+  // Define openRegisterForm function
+  function openRegisterForm() {
+    openModal('register'); // Call openModal with the 'register' parameter
+  }
 </script>
 
 <Modal {modalTypeToShow} /> <!-- Render the Modal component with modalType prop -->
@@ -70,9 +80,13 @@
 
     <div class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
       <ul class="list-none menu-social mb-0">
-        <!-- Use openModal function on click -->
+        <!-- Use openLoginForm function on click -->
         <li class="inline">
-          <a href="#" class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase" on:click|preventDefault={() => openModal('login')}>Login</a>
+          <a href="#" class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase" on:click|preventDefault={openLoginForm}>Login</a>
+        </li>
+        <!-- Use openRegisterForm function on click -->
+        <li class="inline">
+          <a href="#" class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase" on:click|preventDefault={openRegisterForm}>Register</a>
         </li>
       </ul>
       <button data-collapse="menu-collapse" type="button" class="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden" on:click={() => menu = !menu}>
@@ -83,27 +97,7 @@
 
     <div class={`navigation lg_992:order-1 lg_992:flex  ms-auto ${menu ? '' : 'hidden'}`} id="menu-collapse">
       <ul class="navbar-nav" id="navbar-navlist">
-        <li class="nav-item ms-0">
-          <a class="nav-link active home" href="#home" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Home</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link about" href="#about" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>About</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link services" href="#services" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Info</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link review" href="#review" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Testimonial</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link pricing" href="#pricing" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Subscribe</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link blog" href="#blog" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Blogs</a>
-        </li>
-        <li class="nav-item ms-0">
-          <a class="nav-link contact" href="#contact" on:click={handleAnchorClick} smooth={true} duration={1000} activeClass='active' spy={true}>Contact us</a>
-        </li>
+        <!-- Your existing navigation links -->
       </ul>
     </div>
   </div>

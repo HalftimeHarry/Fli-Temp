@@ -7,45 +7,19 @@
   let loading = false;
   let email = '';
   let password = '';
-  let formType = 'register'; // Set the default formType to 'register'
-
+  
+  let formType = ''; // No need to set default formType here
+  
   onMount(() => {
-    authStore.set({ formType: 'register' });
-  });
-
-  authStore.subscribe((state) => {
-    formType = state.formType;
+    authStore.subscribe((state) => {
+      formType = state.formType; // Update formType based on state changes
+    });
   });
 
   const handleCloseModal = () => {
-    authStore.set({ formType: null });
+    authStore.set({ formType: null }); // Reset formType to close the modal
     email = '';
     password = '';
-    // Hide the current modal
-    const currentModal = document.querySelector('.modal-overlay:last-child');
-    if (currentModal) {
-      currentModal.addEventListener('transitionend', () => {
-        currentModal.style.display = 'none';
-      }, { once: true });
-    }
-    
-    // Hide the modal with class 's-tMJDz8oylI8M'
-    const unwantedModal1 = document.querySelector('.s-tMJDz8oylI8M');
-    if (unwantedModal1) {
-      unwantedModal1.style.display = 'none';
-    }
-
-    // Hide the modal with class 's-a65M7ZidXhwb'
-    const unwantedModal2 = document.querySelector('.s-a65M7ZidXhwb');
-    if (unwantedModal2) {
-      unwantedModal2.style.display = 'none';
-    }
-
-    // Hide the modal associated with the provided button
-    const unwantedModal3 = document.querySelector('.modal-associated-with-button');
-    if (unwantedModal3) {
-      unwantedModal3.style.display = 'none';
-    }
   };
 
   const handleSignUp = async () => {
@@ -101,6 +75,9 @@
 </script>
 
 <div in:fly={{ x: -600, duration: 800 }} out:fly={{ x: 600, duration: 800 }}>
+
+  <!-- Ensure the modal is displayed based on formType -->
+  {#if formType}
   <div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
     <div class="bg-white p-6 rounded-lg shadow-lg max-w-md relative">
       <!-- Close button -->
@@ -203,6 +180,8 @@
       {/if}
     </div>
   </div>
+  {/if}
+
 </div>
 
 <!-- Add the following CSS styles to ensure the submit button is always visible -->
