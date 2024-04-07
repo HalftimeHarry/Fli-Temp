@@ -11,7 +11,6 @@
 	import GetInTouch from '../../../components/getInTuoch.svelte';
 	import Footer from '../../../components/footer.svelte';
 	import Switcher from '../../../components/switcher.svelte';
-	import Partners from '../../../components/partners.svelte';
 </script>
 
 <Header />
