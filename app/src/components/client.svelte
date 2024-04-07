@@ -8,7 +8,7 @@
 	import client3 from '../assets/images/team/ts_1_bk.jpg';
 	import client4 from '../assets/images/team/mc_1_bk.jpg';
 	import client5 from '../assets/images/team/cl_1_bk.jpg';
-	import client6 from '../assets/images/team/ap_1_bk.jpg';
+	import client6 from '../assets/images/team/Jim_n.png';
 
 	const clientData = [
 		{
