@@ -5,10 +5,9 @@
 	import '../assets/css/materialdesignicons.min.css';
 	import { supabase } from '/src/supabaseClient.ts';
 	import type { AuthSession } from '@supabase/supabase-js';
-	import Account from '/workspace/Fli-Temp/app/src/lib/Account.svelte';
+	import Account from '$lib/Account.svelte';
 	import { goto } from '$app/navigation';
-  import { page } from '$app/stores';
-
+	import { page } from '$app/stores';
 
 	onMount(async () => {
 		window.addEventListener('scroll', windowScroll);
@@ -173,7 +172,6 @@
 	let isLoggedIn = false;
 	let formType;
 
-
 	async function setFormToRegister() {
 		await tick(); // Wait for the DOM to update
 	}
@@ -189,7 +187,6 @@
 			console.error('Error signing out: ', error);
 		}
 	};
-
 
 	async function handlePasswordResetRequest() {
 		if (session && session.user?.email) {
@@ -224,7 +221,6 @@
 			}
 		}
 	}
-
 
 	function toggleRegister() {
 		const currentRoute = window.location.pathname;
