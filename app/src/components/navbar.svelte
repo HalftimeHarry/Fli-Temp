@@ -78,37 +78,5 @@
 			<img src={logoDark} class="inline-block dark:hidden" alt="" />
 			<img src={logoLight} class="hidden dark:inline-block" alt="" />
 		</a>
-
-		<div class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
-			{#if isAuthenticated}
-				<!-- If authenticated, show Sign Out button -->
-				<button
-					type="button"
-					class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase"
-					on:click={handleSignOut}
-					disabled={loading}
-				>
-					{loading ? 'Signing Out...' : 'Sign Out'}
-				</button>
-			{:else}
-				<!-- If not authenticated, show Login button -->
-				<button
-					type="button"
-					class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase"
-					on:click={() => openModal('login')}
-				>
-					Login
-				</button>
-			{/if}
-			<button
-				data-collapse="menu-collapse"
-				type="button"
-				class="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden"
-				on:click={() => (menu = !menu)}
-			>
-				<span class="sr-only">Navigation Menu</span>
-				<i class="mdi mdi-menu text-[24px]" />
-			</button>
-		</div>
 	</div>
 </nav>
