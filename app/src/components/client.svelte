@@ -8,7 +8,7 @@
 	import client3 from '../assets/images/team/ts_1_bk.jpg';
 	import client4 from '../assets/images/team/mc_1_bk.jpg';
 	import client5 from '../assets/images/team/cl_1_bk.jpg';
-	import client6 from '../assets/images/team/06.jpg';
+	import client6 from '../assets/images/team/ap_1_bk.jpg';
 
 	const clientData = [
 		{
@@ -33,19 +33,19 @@
 			image: client4,
 			name: 'Mark Coleman',
 			title: 'Production Director',
-			desc: '" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts "'
+			desc: '" Having built a career in constructing sports channels, streaming, and broadcasting projects, I have long awaited an opportunity to showcase both gender equality and the remarkable sport of professional disc golf. It is an exciting endeavor, and I am eager to be a part of it. "'
 		},
 		{
 			image: client5,
 			name: 'Corey La Russo',
 			title: 'Chief Marketing Officer',
-			desc: '"Throughout my journey as a professional golfer, I have dedicated myself to mastering the game and collaborating with prestigious organizations like IHeart Radio, the Natinal Baskeball Association and multiple golf orginizations. Managing NBA players has provided unique insights into the world of athletics. Competing on the international stage of international professional golf tours has not only showcased my skills but also allowed me to advocate for gender equality in sports. I am proud to break barriers and inspire future generations to pursue their passions, regardless of gender."'
+			desc: '"As someone deeply involved in professional athletics, an iHeart Radio personality, and an international player manager, I have eagerly watched the progression of gender equality in sports, particularly in the realm of disc golf. It is incredibly gratifying to see the world of sports opening up for women, and I am thrilled to be a part of this exciting movement through projects like FLI Golf."'
 		},
 		{
 			image: client6,
 			name: 'Jim Neely',
 			title: 'Live Production Director',
-			desc: '" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero "'
+			desc: '" With years of experience in live sports production, I have witnessed the gradual increase in platforms dedicated to womens sports, and it has been truly exciting to see this progress. That is why I am thrilled to be a part of the FLI Golf project. "'
 		}
 	];
 
