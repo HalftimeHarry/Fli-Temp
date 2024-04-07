@@ -1,9 +1,9 @@
 <!-- Partners.svelte -->
 
 <script>
-	import par1lt from '../assets/images/partners/pure_dk.png';
-	import par1dk from '../assets/images/partners/pure_lt.png';
-	import par2main from '../assets/images/partners/ame_main_logo.webp';
+	import win_logo from '../assets/images/partners/winmo_logo.svg';
+	import pure_logo from '../assets/images/partners/pure_lt.png';
+	import ame_logo from '../assets/images/partners/ame_main_logo.webp';
 
 	// Variable to track the toggle state
 	let isDarkMode = false;
@@ -50,13 +50,19 @@
 			<div
 				class="flex h-16 items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 sm:h-32"
 			>
-				<img src={par1dk} alt="Partner 1 Logo" />
+				<img src={pure_logo} alt="Partner 1 Logo" />
 			</div>
 
 			<div
 				class="flex h-16 items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 sm:h-32"
 			>
-				<img src={par2main} alt="Partner 3 Logo" />
+				<img src={win_logo} alt="Partner 1 Logo" />
+			</div>
+
+			<div
+				class="flex h-16 items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 sm:h-32"
+			>
+				<img src={ame_logo} alt="Partner 3 Logo" />
 			</div>
 			<!-- Add more partner logos as needed -->
 		</div>
