@@ -1,5 +1,5 @@
 <script>
-	import heroImg from '../assets/images/aperl_tp_3.png';
+	import heroImg from '../assets/images/aperl_blur_tp_3.png';
 	import Header from '../components/navbar.svelte';
 	import About from '../components/about.svelte';
 	import Services from '../components/services.svelte';
@@ -51,16 +51,6 @@
 					youth athletic programs. Join us today to be part of a community that's not just playing
 					the game, but changing it for the better.
 				</p>
-				<div class="mt-6">
-					<!-- Button triggering the modal -->
-					<button
-						type="button"
-						class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white"
-						on:click={() => openModal('register')}
-					>
-						Register
-					</button>
-				</div>
 			</div>
 
 			<div class="lg:ms-8">
