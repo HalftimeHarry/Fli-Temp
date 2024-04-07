@@ -1,5 +1,5 @@
 <script>
-	import Header from '../../../components/navbar.svelte';
+	import Header from '../../../components/navLight.svelte';
 	import About from '../../../components/about.svelte';
 	import Services from '../../../components/services.svelte';
 	import AgencyTab from '../../../components/agencyTab.svelte';
@@ -21,8 +21,8 @@
 <AgencyTab />
 <Cta />
 <Client />
-<Pricing />
 <Partners />
+<Pricing />
 <Blogs />
 <GetInTouch />
 <Footer />

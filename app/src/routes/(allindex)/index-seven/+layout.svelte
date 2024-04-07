@@ -6,6 +6,7 @@
 	import Cta from "../../../components/cta.svelte";
 	import Client from "../../../components/client.svelte";
 	import Pricing from "../../../components/pricing.svelte";
+	import Partners from '../../../components/partners.svelte';
 	import Blogs from "../../../components/blog.svelte";
 	import GetInTouch from "../../../components/getInTuoch.svelte";
 	import Footer from "../../../components/footer.svelte";
@@ -19,7 +20,8 @@
 <AgencyTab/>
  <Cta/>
 <Client/>
-<Pricing/>
+<Partners />
+<Pricing />
 <Blogs/>
 <GetInTouch/>
 <Footer/>

@@ -1,8 +1,8 @@
 <section class="relative md:py-24 py-16 bg-slate-50 dark:bg-slate-800" id="pricing">
 	<div class="container relative">
 		<div class="grid grid-cols-1 pb-6 text-center">
-			<h3 class="font-semibold text-2xl leading-normal mb-4">Our Pricing</h3>
-			<p class="text-slate-400 max-w-xl mx-auto">Paid subscriptions will be avalible soon!</p>
+			<h3 class="font-semibold text-2xl leading-normal mb-4">Subscription Packages</h3>
+			<p class="text-slate-400 max-w-xl mx-auto">Coming soon!</p>
 		</div>
 
 		<div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
