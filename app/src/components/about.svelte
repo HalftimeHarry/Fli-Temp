@@ -1,9 +1,8 @@
 <script>
 	import groupImage from '../assets/images/group-fli-1.jpg';
-	import Counter from './counter.svelte';
 </script>
 
-<Counter />
+
 <section class="relative md:py-24 py-16" id="about">
 	<div class="container relative">
 		<div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
