@@ -1,11 +1,9 @@
 <script>
     import { Modal, Content, Trigger } from "sv-popup";
-	import Counter from "../../../components/counter.svelte";
 	import heroImg from "../../../assets/images/about2.jpg"
 	import bg from '../../../assets/images/bg/2.png';
 	import {MonitorIcon} from 'svelte-feather-icons'
 </script>
-<Counter />
 <section class="relative flex items-center md:h-screen py-36 bg-no-repeat bg-center bg-cover" id="home" style:background-image="url({bg})">
 	<div class="container relative">
 		<div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-6 gap-6 relative">
