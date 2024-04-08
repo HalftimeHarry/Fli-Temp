@@ -76,7 +76,7 @@
 
 <section class="relative md:py-24 py-16" id="review">
     <div class="container relative">
-        <div class="grid grid-cols-1 pb-6 text-center">
+        <div class="grid pb-6 text-center">
             <h3 class="font-semibold text-2xl leading-normal mb-4">Management Testimonials</h3>
 
             <p class="text-slate-400 max-w-xl mx-auto">
@@ -84,7 +84,7 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-6 mt-6">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
             {#each clientData as item}
             <div class="w-full">
                 <div class="tiny-slide text-center">
