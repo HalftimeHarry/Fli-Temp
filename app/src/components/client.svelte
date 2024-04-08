@@ -21,7 +21,7 @@
 		},
 		{
 			image: client3,
-			name: 'Tony Smart',
+			name: 'Alexander Smart',
 			title: 'President',
 			desc: '" As a 100% disabled Marine Corps veteran, I am proud to stand beside the men and women who served our great country. As the President of FLI Golf, I am equally as honored to be a part of a movement in sports that can bring a positive future to our young men and women."'
 		},
@@ -75,47 +75,47 @@
 </script>
 
 <section class="relative md:py-24 py-16" id="review">
-    <div class="container relative">
-        <div class="grid pb-6 text-center">
-            <h3 class="font-semibold text-2xl leading-normal mb-4">Management Testimonials</h3>
+	<div class="container relative">
+		<div class="grid pb-6 text-center">
+			<h3 class="font-semibold text-2xl leading-normal mb-4">Management Testimonials</h3>
 
-            <p class="text-slate-400 max-w-xl mx-auto">
-                Below are testimonials from the FLI Golf Co-Founders and Management Team!
-            </p>
-        </div>
+			<p class="text-slate-400 max-w-xl mx-auto">
+				Below are testimonials from the FLI Golf Co-Founders and Management Team!
+			</p>
+		</div>
 
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
-            {#each clientData as item}
-            <div class="w-full">
-                <div class="tiny-slide text-center">
-                    <div class="cursor-e-resize">
-                        <div
-                            class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900 before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left"
-                        >
-                            <i class="mdi mdi-format-quote-open mdi-48px text-teal-500" />
-                            <p class="text-slate-400">{item.desc}</p>
-                            <ul class="list-none mb-0 text-amber-400 mt-3">
-                                <li class="inline"><i class="mdi mdi-star" /></li>
-                                <li class="inline"><i class="mdi mdi-star" /></li>
-                                <li class="inline"><i class="mdi mdi-star" /></li>
-                                <li class="inline"><i class="mdi mdi-star" /></li>
-                                <li class="inline"><i class="mdi mdi-star" /></li>
-                            </ul>
-                        </div>
+		<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+			{#each clientData as item}
+				<div class="w-full">
+					<div class="tiny-slide text-center">
+						<div class="cursor-e-resize">
+							<div
+								class="content relative rounded shadow dark:shadow-gray-700 m-2 p-6 bg-white dark:bg-slate-900 before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left"
+							>
+								<i class="mdi mdi-format-quote-open mdi-48px text-teal-500" />
+								<p class="text-slate-400">{item.desc}</p>
+								<ul class="list-none mb-0 text-amber-400 mt-3">
+									<li class="inline"><i class="mdi mdi-star" /></li>
+									<li class="inline"><i class="mdi mdi-star" /></li>
+									<li class="inline"><i class="mdi mdi-star" /></li>
+									<li class="inline"><i class="mdi mdi-star" /></li>
+									<li class="inline"><i class="mdi mdi-star" /></li>
+								</ul>
+							</div>
 
-                        <div class="text-center mt-5">
-                            <img
-                                src={item.image}
-                                class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto"
-                                alt=""
-                            />
-                            <h6 class="mt-2 font-semibold">{item.name}</h6>
-                            <span class="text-slate-400 text-sm">{item.title}</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/each}
-        </div>
-    </div>
+							<div class="text-center mt-5">
+								<img
+									src={item.image}
+									class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto"
+									alt=""
+								/>
+								<h6 class="mt-2 font-semibold">{item.name}</h6>
+								<span class="text-slate-400 text-sm">{item.title}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
 </section>

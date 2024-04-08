@@ -10,7 +10,7 @@
 					<figure class="relative">
 						<img src={groupImage} class="rounded-full shadow dark:shadow-gray-700" alt="" />
 						<figcaption style="text-align: center;">
-							Andrew Panza, Dustin Dinsmore, Tony Smart, Mark Coleman and Corey LaRusso
+							Andrew Panza, Dustin Dinsmore, Alexander Smart, Mark Coleman and Corey LaRusso
 						</figcaption>
 					</figure>
 				</div>
