@@ -2,7 +2,6 @@
 	import groupImage from '../assets/images/group-fli-1.jpg';
 </script>
 
-
 <section class="relative md:py-24 py-16" id="about">
 	<div class="container relative">
 		<div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
@@ -11,7 +10,7 @@
 					<figure class="relative">
 						<img src={groupImage} class="rounded-full shadow dark:shadow-gray-700" alt="" />
 						<figcaption style="text-align: center;">
-							Andrew Panza, Dustin Dinsmore, Tony Smart, Mark Colemann and Corey LaRusso
+							Andrew Panza, Dustin Dinsmore, Tony Smart, Mark Coleman and Corey LaRusso
 						</figcaption>
 					</figure>
 				</div>
