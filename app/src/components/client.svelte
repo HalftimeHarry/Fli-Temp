@@ -35,7 +35,7 @@
 			image: client5,
 			name: 'Corey La Russo',
 			title: 'Chief Marketing Officer',
-			desc: '"As someone deeply involved in professional athletics, an iHeart Radio personality, and an international player manager, I have eagerly watched the progression of gender equality in sports, particularly in the realm of disc golf. It is incredibly gratifying to see the world of sports opening up for women, and I am thrilled to be a part of this exciting movement through projects like FLI Golf."'
+			desc: '"As someone deeply involved in professional athletics, an IHeart Radio personality, and an international player manager, I have eagerly watched the progression of gender equality in sports, particularly in the realm of disc golf. It is incredibly gratifying to see the world of sports opening up for women, and I am thrilled to be a part of this exciting movement through projects like FLI Golf."'
 		},
 		{
 			image: client6,
