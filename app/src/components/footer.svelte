@@ -31,26 +31,6 @@
 				<ul class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
 					<li class="inline">
 						<a
-							href="https://www.tiktok.com/@fli_golf?is_from_webapp=1&sender_device=pc"
-							target="_blank"
-							class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
-							><ShoppingCartIcon
-								data-feather="shopping-cart"
-								class="size-4 align-middle"
-								title="Buy Now"
-							/></a
-						>
-					</li>
-					<li class="inline">
-						<a
-							href="https://www.facebook.com/profile.php?id=61558339317625"
-							target="_blank"
-							class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
-							><DribbbleIcon class="size-4 align-middle" title="dribbble" /></a
-						>
-					</li>
-					<li class="inline">
-						<a
 							href="https://www.linkedin.com/company/fligolf/"
 							target="_blank"
 							class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500"
