@@ -42,7 +42,7 @@
 		{
 			icon: HexagonIcon,
 			title: 'FAQ',
-			desc: 'Is disc golf popular enough as a sport to sustain a tournament of this magnitude? A) There are over 51.6 MILLION registered rounds of disc golf played each year worldwide. (As per sportspromedia.com and udisc.com)',
+			desc: 'Is disc golf popular enough as a sport to sustain a brand of this magnitude? A) There are over 51.6 MILLION registered rounds of disc golf played each year worldwide. (As per sportspromedia.com and udisc.com)',
 			body: 'How accessible is Disc Golf to the average American? A) 500 MILLION people live within 6 miles of a disc golf course.',
 			link: 'competition'
 		},
